@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".julay">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="339dp"
+                android:layout_height="357dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/julay"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="131dp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:text="সরকারি ছুটি"
+                android:textSize="25dp"/>
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:adSize="BANNER"
+                app:adUnitId="@string/banner_ad_id">
+
+            </com.google.android.gms.ads.AdView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="207dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:text= " *২০ জুলাই ঈদুল আযহা
+
+                   *২১ জুলাই ঈদুল আযহা
+
+                   *২২ জুলাই ঈদুল আযহা "
+                android:textColor="#000000"
+                android:textSize="25dp"
+
+                android:layout_marginBottom="60dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
